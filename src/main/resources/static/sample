@@ -1,0 +1,14 @@
+{
+  "employee": [
+      {
+        "id": 1,
+        "firstName": "Tom",
+        "lastName": "Cruise"
+      }
+      ],
+  "address":[{
+      "id":1,
+      "city":"",
+      "state":""
+    }]
+ }
