@@ -11,7 +11,6 @@ import lombok.Generated;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
-        "id",
         "firstName",
         "lastName"
 })
@@ -19,22 +18,11 @@ import lombok.Generated;
 @AllArgsConstructor
 public class Employee__1 {
 
-    @JsonProperty("id")
-    private Long id;
     @JsonProperty("firstName")
     private String firstName;
     @JsonProperty("lastName")
     private String lastName;
 
-    @JsonProperty("id")
-    public Long getId() {
-        return id;
-    }
-
-    @JsonProperty("id")
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     @JsonProperty("firstName")
     public String getFirstName() {

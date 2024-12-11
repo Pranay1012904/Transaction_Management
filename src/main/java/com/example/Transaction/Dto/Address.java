@@ -8,7 +8,6 @@ import lombok.Generated;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
-        "id",
         "city",
         "state"
 })
@@ -16,22 +15,10 @@ import lombok.Generated;
 @AllArgsConstructor
 public class Address {
 
-    @JsonProperty("id")
-    private Long id;
     @JsonProperty("city")
     private String city;
     @JsonProperty("state")
     private String state;
-
-    @JsonProperty("id")
-    public Long getId() {
-        return id;
-    }
-
-    @JsonProperty("id")
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     @JsonProperty("city")
     public String getCity() {
